@@ -1,0 +1,15 @@
+{
+  "receipt_id": "684ab88b-fa59-4dbc-9d79-fdfda94a672b",
+  "agent_id": "15b17331600bac87da28767459540d2388f8a70d15904d96f00518b3535ff93f",
+  "decision": "DENIED_BUDGET",
+  "timestamp": 1775697838.3160908,
+  "circuit_hash": "a5c910edea658701b70d87a20d8bf2c0833f92ae7bf6085f86374aae4dde21ea",
+  "backend_name": "ibm_kingston",
+  "shots_requested": 5000,
+  "delegation_id": "del-quantum-002",
+  "denial_reasons": [
+    "shots 5000 > max 100"
+  ],
+  "signature": "a613b30e3e4c4c974671d2dc8bf17a7e9098f1cfcbba0b63b0927ced9b38cd432914de94c6c9ef68c183bfe190b0233160f4dd1e2443fae22af89cada8be5106",
+  "content_hash": "81a8acd854742dffb4b9701d58db79d88d395bfce891b5205556c8976d11e39b"
+}

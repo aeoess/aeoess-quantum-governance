@@ -1,0 +1,21 @@
+{
+  "experiment": "cross-backend",
+  "results": [
+    {
+      "backend": "ibm_fez",
+      "decision": "ERROR",
+      "error": "'CalibrationSnapshot' object has no attribute 'qubit_calibrations'"
+    },
+    {
+      "backend": "ibm_marrakesh",
+      "decision": "ERROR",
+      "error": "'CalibrationSnapshot' object has no attribute 'qubit_calibrations'"
+    },
+    {
+      "backend": "ibm_kingston",
+      "decision": "ERROR",
+      "error": "'CalibrationSnapshot' object has no attribute 'qubit_calibrations'"
+    }
+  ],
+  "ts": "2026-04-09T02:49:23.929865+00:00"
+}

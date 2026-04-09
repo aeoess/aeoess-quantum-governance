@@ -1,0 +1,35 @@
+{
+  "experiment": "counterfactual",
+  "ts": "2026-04-09T03:17:25.015590+00:00",
+  "results": {
+    "ibm_fez": {
+      "counts": {
+        "00": 461,
+        "11": 468,
+        "10": 46,
+        "01": 25
+      },
+      "correct": 929,
+      "wrong": 71,
+      "fidelity": 0.929,
+      "error": 0.071,
+      "job_id": "d7bhkde5nvhs73a3cgl0",
+      "time": 8.5
+    },
+    "ibm_kingston": {
+      "counts": {
+        "11": 495,
+        "00": 486,
+        "01": 9,
+        "10": 10
+      },
+      "correct": 981,
+      "wrong": 19,
+      "fidelity": 0.981,
+      "error": 0.019,
+      "job_id": "d7bhkf65nvhs73a3cgng",
+      "time": 9.0
+    }
+  },
+  "fidelity_gap_pp": 5.2
+}

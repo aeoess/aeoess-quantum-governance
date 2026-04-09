@@ -1,0 +1,59 @@
+{
+  "receipt_id": "6252d9b2-80cd-427a-80dd-f567233efeed",
+  "agent_id": "ec8057c411eecbc5a9b0f8418dc71b775bc39650e6370b781492b99749393c8e",
+  "decision": "PERMITTED",
+  "timestamp": 1775697846.518571,
+  "circuit_hash": "a5c910edea658701b70d87a20d8bf2c0833f92ae7bf6085f86374aae4dde21ea",
+  "backend_name": "ibm_kingston",
+  "shots_requested": 500,
+  "delegation_id": "del-quantum-child",
+  "calibration_snapshot": {
+    "backend_name": "ibm_kingston",
+    "timestamp": "2026-04-09T01:24:05.652053+00:00",
+    "calibration_age_hours": 0.11,
+    "overall_fidelity_score": 0.991667,
+    "qubits": [
+      {
+        "qubit": 0,
+        "t1_us": 382.16,
+        "t2_us": 375.49,
+        "readout_error": 0.015,
+        "frequency_ghz": 0.0
+      },
+      {
+        "qubit": 1,
+        "t1_us": 304.44,
+        "t2_us": 340.45,
+        "readout_error": 0.015,
+        "frequency_ghz": 0.0
+      }
+    ],
+    "gates": [
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "error_rate": 0.008
+      },
+      {
+        "gate": "sx",
+        "qubits": [
+          0
+        ],
+        "error_rate": 0.000158
+      },
+      {
+        "gate": "sx",
+        "qubits": [
+          1
+        ],
+        "error_rate": 0.000178
+      }
+    ]
+  },
+  "overall_fidelity": 0.991667,
+  "signature": "cdfda4542f5ba66438e5c822a31738c76c75cabe697042f263cf5491ca12bfff6591518c52b8448a663b4b52f6a70c77fcdd07bb2620939d8fb564409c4e8705",
+  "content_hash": "7192056db29e34fd8e833bd01713f0ffedde876507f2237ff833bb6f8e13ab40"
+}

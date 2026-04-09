@@ -1,0 +1,149 @@
+{
+  "experiment": "cross-backend-split",
+  "delegation": {
+    "min_t1_us": 80,
+    "min_t2_us": 40,
+    "max_re": 0.05,
+    "max_ge": 0.01
+  },
+  "results": [
+    {
+      "backend": "ibm_fez",
+      "decision": "DENIED_FIDELITY",
+      "qubits": [
+        {
+          "qubit": 0,
+          "t1_us": 39.14,
+          "t2_us": 42.1,
+          "readout_error": 0.015
+        },
+        {
+          "qubit": 1,
+          "t1_us": 231.52,
+          "t2_us": 248.01,
+          "readout_error": 0.015
+        }
+      ],
+      "gates": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "error": 0.008
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            0
+          ],
+          "error": 0.0021932629258694064
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            1
+          ],
+          "error": 0.00025919056446548755
+        }
+      ],
+      "fidelity": 0.989568,
+      "cal_age_h": 0.15,
+      "reasons": [
+        "Qubit 0 T1=39.1us < min 80.0us"
+      ]
+    },
+    {
+      "backend": "ibm_marrakesh",
+      "decision": "PERMITTED",
+      "qubits": [
+        {
+          "qubit": 0,
+          "t1_us": 383.79,
+          "t2_us": 51.65,
+          "readout_error": 0.015
+        },
+        {
+          "qubit": 1,
+          "t1_us": 161.45,
+          "t2_us": 141.33,
+          "readout_error": 0.015
+        }
+      ],
+      "gates": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "error": 0.008
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            0
+          ],
+          "error": 0.0001890002023761692
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            1
+          ],
+          "error": 0.00025265607881372657
+        }
+      ],
+      "fidelity": 0.991562,
+      "cal_age_h": 0.74,
+      "reasons": []
+    },
+    {
+      "backend": "ibm_kingston",
+      "decision": "PERMITTED",
+      "qubits": [
+        {
+          "qubit": 0,
+          "t1_us": 382.16,
+          "t2_us": 375.49,
+          "readout_error": 0.015
+        },
+        {
+          "qubit": 1,
+          "t1_us": 304.44,
+          "t2_us": 340.45,
+          "readout_error": 0.015
+        }
+      ],
+      "gates": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "error": 0.008
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            0
+          ],
+          "error": 0.00015806593595936417
+        },
+        {
+          "gate": "sx",
+          "qubits": [
+            1
+          ],
+          "error": 0.00017772694165126896
+        }
+      ],
+      "fidelity": 0.991667,
+      "cal_age_h": 0.26,
+      "reasons": []
+    }
+  ],
+  "ts": "2026-04-09T02:50:18.710315+00:00"
+}

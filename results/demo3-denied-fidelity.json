@@ -1,0 +1,70 @@
+{
+  "receipt_id": "f3e93988-8a46-4dae-9bd4-b0958d1c0d10",
+  "agent_id": "15b17331600bac87da28767459540d2388f8a70d15904d96f00518b3535ff93f",
+  "decision": "DENIED_FIDELITY",
+  "timestamp": 1775697842.842498,
+  "circuit_hash": "a5c910edea658701b70d87a20d8bf2c0833f92ae7bf6085f86374aae4dde21ea",
+  "backend_name": "ibm_kingston",
+  "shots_requested": 1000,
+  "delegation_id": "del-quantum-003",
+  "calibration_snapshot": {
+    "backend_name": "ibm_kingston",
+    "timestamp": "2026-04-09T01:24:02.043937+00:00",
+    "calibration_age_hours": 1.11,
+    "overall_fidelity_score": 0.991667,
+    "qubits": [
+      {
+        "qubit": 0,
+        "t1_us": 382.16,
+        "t2_us": 375.49,
+        "readout_error": 0.015,
+        "frequency_ghz": 0.0
+      },
+      {
+        "qubit": 1,
+        "t1_us": 304.44,
+        "t2_us": 340.45,
+        "readout_error": 0.015,
+        "frequency_ghz": 0.0
+      }
+    ],
+    "gates": [
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "error_rate": 0.008
+      },
+      {
+        "gate": "sx",
+        "qubits": [
+          0
+        ],
+        "error_rate": 0.000158
+      },
+      {
+        "gate": "sx",
+        "qubits": [
+          1
+        ],
+        "error_rate": 0.000178
+      }
+    ]
+  },
+  "denial_reasons": [
+    "Qubit 0 T1=382.2us < min 500.0us",
+    "Qubit 0 T2=375.5us < min 400.0us",
+    "Qubit 0 readout_error=0.0150 > max 0.001",
+    "Qubit 1 T1=304.4us < min 500.0us",
+    "Qubit 1 T2=340.4us < min 400.0us",
+    "Qubit 1 readout_error=0.0150 > max 0.001",
+    "Gate cx[0, 1] error=0.00800 > max 0.0001",
+    "Gate sx[0] error=0.00016 > max 0.0001",
+    "Gate sx[1] error=0.00018 > max 0.0001"
+  ],
+  "overall_fidelity": 0.991667,
+  "signature": "399997c2ea0c80e7fe333c3884e55b49ee922248b85ffc04478926979ee5079d7b57a9c1363365d962fdb660351efd18021042a951ea8561ad08847ba6ab8d01",
+  "content_hash": "e9bff1e8df049c7c1defa634e87c718a80f6b5ae841c957607ab8c72ecaa1fa5"
+}

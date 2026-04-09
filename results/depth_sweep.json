@@ -1,0 +1,107 @@
+{
+  "experiment": "depth-sweep",
+  "backend": "ibm_kingston",
+  "results": [
+    {
+      "target_depth": 1,
+      "actual_depth": 4,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.988905,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 2,
+      "actual_depth": 6,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.983403,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 3,
+      "actual_depth": 8,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.977933,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 5,
+      "actual_depth": 12,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.967082,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 8,
+      "actual_depth": 18,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.951032,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 10,
+      "actual_depth": 22,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.94048,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 15,
+      "actual_depth": 32,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.91461,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 20,
+      "actual_depth": 42,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.889451,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 30,
+      "actual_depth": 62,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.841191,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    },
+    {
+      "target_depth": 50,
+      "actual_depth": 102,
+      "hw_fidelity": 0.991667,
+      "est_circuit_fidelity": 0.752384,
+      "decision": "DENY",
+      "reasons": [
+        "Gate cx[0, 1] error=0.00800 > max 0.005"
+      ]
+    }
+  ],
+  "ts": "2026-04-09T02:52:50.235902+00:00"
+}

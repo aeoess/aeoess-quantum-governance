@@ -1,0 +1,49 @@
+{
+  "experiment": "overhead-benchmark",
+  "backend": "ibm_kingston",
+  "n_runs": 5,
+  "timings": [
+    {
+      "run": 1,
+      "calibration_ms": 7050.5,
+      "policy_ms": 0.01,
+      "signing_ms": 18.86,
+      "total_ms": 7069.3
+    },
+    {
+      "run": 2,
+      "calibration_ms": 3910.6,
+      "policy_ms": 0.01,
+      "signing_ms": 0.58,
+      "total_ms": 3911.2
+    },
+    {
+      "run": 3,
+      "calibration_ms": 3431.6,
+      "policy_ms": 0.01,
+      "signing_ms": 0.53,
+      "total_ms": 3432.2
+    },
+    {
+      "run": 4,
+      "calibration_ms": 3985.1,
+      "policy_ms": 0.01,
+      "signing_ms": 0.53,
+      "total_ms": 3985.6
+    },
+    {
+      "run": 5,
+      "calibration_ms": 4067.5,
+      "policy_ms": 0.01,
+      "signing_ms": 0.61,
+      "total_ms": 4068.1
+    }
+  ],
+  "averages": {
+    "cal_ms": 4489.1,
+    "policy_ms": 0.01,
+    "signing_ms": 4.22,
+    "total_ms": 4493.3
+  },
+  "ts": "2026-04-09T03:17:57.015177+00:00"
+}

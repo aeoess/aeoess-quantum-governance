@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Cron-appended drift readings (reproducible via scripts, not tracked)
+results/drift_log.jsonl
+results/drift_cron.log
